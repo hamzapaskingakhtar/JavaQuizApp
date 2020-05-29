@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".Categories">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_basics_and_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:padding="15dp"
+                android:background="@drawable/categories_design"
+                android:textSize="22sp"
+                android:text="Basics And History"
+                android:drawableLeft="@drawable/java1"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_control_statements"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:padding="15dp"
+                android:background="@drawable/categories_design"
+                android:textSize="22sp"
+                android:text="Control Statements"
+                android:drawableLeft="@drawable/java1"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_array"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:padding="15dp"
+                android:background="@drawable/categories_design"
+                android:textSize="22sp"
+                android:text="Array"
+                android:drawableLeft="@drawable/java1"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_strings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:padding="15dp"
+                android:background="@drawable/categories_design"
+                android:textSize="22sp"
+                android:text="Strings"
+                android:drawableLeft="@drawable/java1"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_oop_concepts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:padding="15dp"
+                android:background="@drawable/categories_design"
+                android:textSize="22sp"
+                android:text="OOP Concepts"
+                android:drawableLeft="@drawable/java1"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_exceptions_handling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:padding="15dp"
+                android:background="@drawable/categories_design"
+                android:textSize="22sp"
+                android:text="Exception Handling"
+                android:drawableLeft="@drawable/java1"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_multi_threading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:padding="15dp"
+                android:background="@drawable/categories_design"
+                android:textSize="22sp"
+                android:text="Multi Threading"
+                android:drawableLeft="@drawable/java1"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_collection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:padding="15dp"
+                android:background="@drawable/categories_design"
+                android:textSize="22sp"
+                android:text="Collection"
+                android:drawableLeft="@drawable/java1"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

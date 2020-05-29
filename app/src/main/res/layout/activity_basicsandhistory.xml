@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".basicsandhistorypackage.basicsandhistory">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginBottom="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="20sp"
+            android:text="Score"
+            android:id="@+id/text_view_score"
+            />
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="40dp"
+        android:padding="8dp"
+        android:text="Which Thing Is Alive?"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_choice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Door"
+        android:background="@drawable/rounded_corners"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+        />
+    <Button
+        android:id="@+id/button_choice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chair"
+        android:background="@drawable/rounded_corners"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+        />
+    <Button
+        android:id="@+id/button_choice3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hamza"
+        android:background="@drawable/rounded_corners"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+        />
+    
+</LinearLayout>
