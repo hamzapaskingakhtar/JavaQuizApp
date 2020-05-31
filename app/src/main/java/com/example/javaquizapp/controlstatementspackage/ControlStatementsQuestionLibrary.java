@@ -22,7 +22,7 @@ public class ControlStatementsQuestionLibrary {
             {"exit()","break","return"},
             {"if,switch","switch,if","while,if"},
             {"do-while","while","for"},
-            {"if()-else()","switch(),if()"},
+            {"if()-else()","switch()","if()"},
             {"Break stops the execution of entire program","Break halts the execution and forces the control out of the loop","Break forces the control out of the loop and starts the execution of next iteration"}
     };
     String mCorrectAnswers[] = {

@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.javaquizapp.arraypackage.array;
 import com.example.javaquizapp.basicsandhistorypackage.basicsandhistory;
 import com.example.javaquizapp.controlstatementspackage.controlstatements;
 
@@ -14,6 +15,7 @@ public class Categories extends AppCompatActivity {
 
     private Button mBasics;
     private Button mControlStatements;
+    private Button mArrays;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +23,7 @@ public class Categories extends AppCompatActivity {
         setContentView(R.layout.activity_categories);
         mBasics = findViewById(R.id.button_basics_and_history);
         mControlStatements = findViewById(R.id.button_control_statements);
+        mArrays = findViewById(R.id.button_array);
 
         // onClickListener of Basics and History Category
         mBasics.setOnClickListener(new View.OnClickListener() {
@@ -35,6 +38,14 @@ public class Categories extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Categories.this, controlstatements.class);
+                startActivity(intent);
+            }
+        });
+        // onClickListener of Array Category
+        mArrays.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent (Categories.this, array.class);
                 startActivity(intent);
             }
         });

@@ -3,11 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
     android:layout_height="match_parent"
-    tools:context=".controlstatementspackage.controlstatements">
-
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".arraypackage.array">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -65,7 +64,7 @@
         android:id="@+id/button_choice3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Huzaifa"
+        android:text="Hamza"
         android:background="@drawable/rounded_corners"
         android:padding="8dp"
         android:layout_marginBottom="24dp"

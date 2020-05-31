@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".controlstatementspackage.controlstatementsResults"></activity>
+        <activity android:name=".arraypackage.arraysResults"></activity>
+        <activity android:name=".arraypackage.array" />
+        <activity android:name=".controlstatementspackage.controlstatementsResults" />
         <activity android:name=".controlstatementspackage.controlstatements" />
         <activity android:name=".basicsandhistorypackage.basicsandhistoryResults" />
         <activity android:name=".basicsandhistorypackage.basicsandhistory" />
